@@ -3,6 +3,21 @@ title: Changelog
 ---
 # Changelog
 
+#### v0.1.1.56
+
+- **New:** Toggle to show/hide extended keyboard row in "..." keyboard options.
+- **New:** WebDAV action step to create and modify files on a WebDAV server. [Docs](https://agiletortoise.github.io/drafts-documentation/actions/steps/webdav)
+- **New:** `Credential` script object. Used to prevent the need to hard code login credentials in action scripts which utilize web services. [Docs](https://github.com/agiletortoise/drafts-documentation/wiki/Credential)
+- **Fix:** Tapping task marks should not reset scroll position.
+- **New:** "Visit Directory" option when created action.
+- **Change:** Reworked navigation in action editing a bit to auto-save, better support swipe-back navigation, and allow exit from action step level.
+- **Fix:** Cancelling an action with "Confirm before running" active did not cleanup activity indicator.
+- **Change:** Re-label "Delete" to "Remove" in Arrange swipe actions.
+- **Change:** Improvements to prompt text fields.
+- **Fix:** Button to remove tint color from action should have X indicator.
+- **Fix:** "Cut" should not make text scroll to end.
+- **Change:** Minor changes to Appearance view.
+
 #### v0.1.1.55
 
 - **New:** First stab at Siri support on the Watch. Likely somewhat buggy...but feel free to try "Create a note using Drafts".
