@@ -3,6 +3,22 @@ title: Changelog
 ---
 # Changelog
 
+#### v0.1.1.57
+
+- **New:** Tagging interface now has button to toggle flagged status.
+- **New:**: Prompt object expanded to allow configuration of text field options, like placeholder text, auto-correct, keyboard type. Details in [docs](https://github.com/agiletortoise/drafts-documentation/wiki/Prompt).
+- **New:** /dictate URL now supporte `locale` param to pass preferred language, in the format "en-US", "es-MX", "it-IT", etc.
+- **New:** Editor object changes [Docs](https://github.com/agiletortoise/drafts-documentation/wiki/Editor)
+    - `editor.arrange(text)` method accepts initial text to arrange, opens arrange mode, and returns the arranged text.
+    - `editor.dictate(locale)` method opens dictation interface, returns dictated text.
+    - `editor.showArrange()` : non-blocking call that just opens arrange mode as if you tapped the button.
+    - `editor.showDictate()` : non-blocking call that just opens the mode as if you tapped the button.
+    - `editor.showFind()` : non-blocking call that just opens the mode as if you tapped the button.
+- **Change:** Limit size of drafts pushed to Watch, with indicator that complete draft is available on phone.
+- **Change:** Bounce the action icon when changing tint color, because why not.
+- **Change:** Increase scheduling priority of sync operations from .background to .userInitiated. The later is what D4 uses and seems to keep things updating faster.
+- **Change:** Rewrite some of the lower level TextKit classes in Obj-C to avoid bridging penalty with Swift. Noticeable performance boost rendering longer texts.
+
 #### v0.1.1.56
 
 - **New:** Toggle to show/hide extended keyboard row in "..." keyboard options.
