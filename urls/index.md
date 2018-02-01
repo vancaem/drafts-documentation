@@ -104,6 +104,7 @@ Run a drafts action on the passed text without saving that text to a draft.
 Open Drafts dictation interface. Pass the resulting dictated text to the x-success URL instead of saving it in Drafts.
 
 - **Arguments**
+  - **locale** *[string, optional]* : Locale identifier to use for dictation, in the standard language-country abbreviated format. Examples: en-US (English-United States), it-IT (Italian-Italy), es-MX (Spanish-Mexico), etc.  Any locale supported by Siri dictation can be used.
   - **retParam** *[string, optional]* : The name of the argument to use to pass the draft content back to the x-success URL.  Defaults to "text", but if the requesting app expects another value (like Workflow's "input") use this argument to override.
 - **Examples**
   - `drafts5://x-callback-url/dictate?x-success=APP-URL`
