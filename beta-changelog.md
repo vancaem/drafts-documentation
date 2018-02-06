@@ -3,6 +3,15 @@ title: Changelog
 ---
 # Changelog
 
+#### v0.1.1.58
+
+- **New:** Print action step. [Docs](https://agiletortoise.github.io/drafts-documentation/actions/steps/print)
+- **New:** Initial work on migration of Actions and Keys from Drafts 4.  Available as migration of individual actions and keys only from Drafts 4 beta version. Not all will migrate successfully, either because they are not supported or I just haven't done migration code for the step.  Please test and look for conversion issues...especially with scripts since a number of changes needed to made to scripts to account for API changes.
+- **New:** Migration of Drafts 4 drafts available in settings. I would love some detailed testing of this, if anyone is up for it, but would not necessarily recommend everyone dive in until we have some confirmation of the functionality.
+- **Fix:** Flagged tab should not show flagged drafts in trash.
+- **Fix/Change:** Various Prompt fixes/improvements.  Better keyboard handling, etc.
+- **Fix:** Draft list empty state would not get hidden when new draft create, making new draft invisible until tab tapped to reload.
+
 #### v0.1.1.57
 
 - **New:** Tagging interface now has button to toggle flagged status.
