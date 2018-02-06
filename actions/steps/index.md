@@ -10,6 +10,7 @@ title: Action Steps
 - [Message]({{ site.baseurl }}/actions/steps/message)
 - [Share]({{ site.baseurl }}/actions/steps/share)
 - [Export]({{ site.baseurl }}/actions/steps/export)
+- [Print]({{ site.baseurl }}/actions/steps/print)
 
 ### Services
 
