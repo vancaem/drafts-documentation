@@ -1,9 +1,7 @@
 ---
 title: URLs
 ---
-# URL Actions
-
-Drafts implement URL actions based on [the x-callback-url specification](http://x-callback-url.com/), and registers the **drafts5:** URL scheme.  All actions below should be formatted as follows:
+Drafts implements URL actions based on [the x-callback-url specification](http://x-callback-url.com/), and registers the **drafts5:** URL scheme.  All actions below should be formatted as follows:
 
 - `drafts5://x-callback-url/[actionName]?[queryParameters]`
 

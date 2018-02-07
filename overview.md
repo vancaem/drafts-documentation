@@ -1,8 +1,6 @@
 ---
 title: Overview
 ---
-# Drafts 5 Overview
-
 This list covers key changes and updates in Drafts 5 for those familiar with earlier versions.
 
 #### Draft Storage and Organization

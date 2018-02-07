@@ -1,7 +1,6 @@
 ---
 title: Scripting
 ---
-# Scripting
 
 Drafts actions may contain [Script steps]({{ site.baseurl }}/actions/steps/script) which execute Javascript. Drafts uses [JavaScriptCore](https://developer.apple.com/documentation/javascriptcore), which Apple ships with the host platform, and all standard libraries are available to work with native Javascript data types.  Note that this is not a browser hosted Javascript environment and will not have access to the same extensions to the language provided by browsers, like the Document Object Model and XHTTP objects.
 

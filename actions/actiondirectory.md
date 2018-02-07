@@ -1,7 +1,6 @@
 ---
 title: Action Directory
 ---
-# Action Directory
 
 The [Drafts Action Directory](https://drafts5-actions.agiletortoise.com/) is a resource for finding and sharing Drafts actions. The Directory includes actions created by Agile Tortoise, and contributed by the community.
 

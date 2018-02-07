@@ -1,7 +1,6 @@
 ---
 title: Action Step – Open URL
 ---
-# Action Step: Open URL
 
 Construct and open an URL. Can be used to open web URLs, but also other apps utilizing non-http URL schemes.
 

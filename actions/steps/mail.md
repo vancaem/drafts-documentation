@@ -1,7 +1,6 @@
 ---
 title: Action Step – Mail
 ---
-# Action Step: Mail
 
 Send pre-configured email messages either using Mail.app or web services in the background.
 

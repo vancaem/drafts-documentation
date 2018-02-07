@@ -1,7 +1,12 @@
 ---
 title: Changelog
 ---
-# Changelog
+#### v0.1.1.59
+
+- **BREAKING Change:** Credential script object has been changed to support arbitrary fields. If you are using this object, see docs for modifications needed. There are convenience methods to create ones pre-configured for user/pass, etc. [Docs](https://github.com/agiletortoise/drafts-documentation/wiki/Credential)
+- **New:** Things scripting integration. This consists of convenience wrappers for their new URL scheme support.  Requires Things 3.4 (still in beta). [Docs](https://github.com/agiletortoise/drafts-documentation/wiki/Things)
+- **New:** Support for migration of more action step types, including URL and Print.
+- **New:** "Merge" operation in draft list.
 
 #### v0.1.1.58
 
@@ -391,7 +396,7 @@ title: Changelog
 #### v0.1.1.17
 
 - **Fix:** Sync issues preventing edits of existing drafts from syncing properly.
-- **Fix:** A couple of crashing issues in template evaluation, particularly of {{ }} url encoding.  Most recursive URLs should work now, but "AllowEmpty" doesn't do anything as of now, so they might end back in the target app.
+- **Fix:** A couple of crashing issues in template evaluation, particularly url encoding.  Most recursive URLs should work now, but "AllowEmpty" doesn't do anything as of now, so they might end back in the target app.
 - **Fix:** Issue with duplicate insert which could hang sync.
 - **Fix:** Dropbox append/prepend would fail if file did not already exist.
 - **Fix:** ||clipboard|| tag in incoming URLs should become blank string if nothing is in clipboard.

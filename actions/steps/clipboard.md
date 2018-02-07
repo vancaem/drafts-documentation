@@ -1,7 +1,6 @@
 ---
 title: Action Step – Clipboard
 ---
-# Action Step: Clipboard
 
 Clipboard steps can replace, append or prepend to the system clipboard.
 

@@ -1,7 +1,6 @@
 ---
 title: Action Step – Message
 ---
-# Action Step: Message
 
 Send pre-configured iMessages. When called, the Messages window will open pre-addressed to provided recipients, and will text filled in and ready to send. Changes can be made in this window before completing the Message.
 

@@ -1,7 +1,6 @@
 ---
 title: Credentials
 ---
-# Credentials
 
 Some services accessed via Drafts actions require authentication. In these cases, the first time the action is used Drafts will trigger then necessary authentication process and when successfully completed, store the credentials for reuse.
 

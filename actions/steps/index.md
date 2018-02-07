@@ -1,8 +1,6 @@
 ---
 title: Action Steps
 ---
-# Action Steps
-
 ### System
 
 - [Clipboard]({{ site.baseurl }}/actions/steps/clipboard)

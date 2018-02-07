@@ -1,8 +1,6 @@
 ---
 title: iCloud Sync
 ---
-# iCloud Sync
-
 Drafts syncs across devices and backs up data to iCloud. Information synchronized to iCloud include:
 
 - Drafts

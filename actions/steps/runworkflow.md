@@ -1,7 +1,6 @@
 ---
 title: Action Step  – Run Workflow
 ---
-# Action Step: Run Workflow
 
 Run a named workflow in the [Workflow app](https://workflow.is).
 

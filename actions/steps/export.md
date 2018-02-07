@@ -1,7 +1,6 @@
 ---
 title: Action Step – Export
 ---
-# Action Step: Export
 
 Export files to the Files.app. Running this action step will open the document browser and allow selection of a destination folder in any available file provider.
 

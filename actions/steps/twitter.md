@@ -1,7 +1,6 @@
 ---
 title: Action Step – Twitter
 ---
-# Action Step: Twitter
 
 Post a tweet to Twitter.
 

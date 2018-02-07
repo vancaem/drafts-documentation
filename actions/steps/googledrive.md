@@ -1,7 +1,6 @@
 ---
 title: Action Step – Google Drive
 ---
-# Action Step: Google Drive
 
 Create, append or prepend to files in [Google Drive](http://drive.google.com).
 

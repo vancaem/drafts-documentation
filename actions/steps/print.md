@@ -1,7 +1,6 @@
 ---
 title: Action Step – Print
 ---
-# Action Step: Print
 
 Print to an AirPrint printer.
 

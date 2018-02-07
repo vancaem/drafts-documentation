@@ -1,7 +1,6 @@
 ---
 title: Action Step – WebDAV
 ---
-# Action Step: WebDAV
 
 Create and modify files on a WebDAV enabled server.
 

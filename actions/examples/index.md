@@ -1,7 +1,6 @@
 ---
 title: Action Examples
 ---
-# Action Examples
 
 Below are several sample Action Groups to be installed in Drafts 5. We will be updating these groups as progress is made on the preview. To install, download and on a device with Drafts installed, select the file and "Copy to Drafts" in the share sheet.
 

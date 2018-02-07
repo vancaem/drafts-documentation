@@ -1,7 +1,6 @@
 ---
 title: Action Step – File
 ---
-# Action Step: File
 
 Create or modify files in the iCloud Drive "Drafts 5" folder or local storage. It is not possible to modify files outside the app's iCloud Drive folder.
 

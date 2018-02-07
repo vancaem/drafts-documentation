@@ -1,7 +1,6 @@
 ---
 title: Action Step – Callback URL
 ---
-# Action Step: Callback URL
 
 Similar to [Open URL]({{ site.baseurl }}/actions/steps/openurl.md), but for use with other apps with support [x-callback-url](http://x-callback-url.com/) to return to other apps after completing a URL action.
 

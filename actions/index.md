@@ -1,7 +1,6 @@
 ---
 title: Actions
 ---
-# Actions
 
 ### Actions Steps
 
