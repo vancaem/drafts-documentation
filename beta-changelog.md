@@ -1,6 +1,19 @@
 ---
 title: Changelog
 ---
+
+#### v0.1.1.60
+
+- **New:** Migrate Actions and Keys from Drafts 4 available in Settings. Requires latest Drafts 4 beta.  Still quite a few things that will not migrate, but many of the basic ones will.
+- **Fix:** Work on a few issues with updates to the currently loaded draft in the editor, when changes occur outside the editor. Fixes some issues (like with archived drafts re-appear in inbox), and with sync.
+- **Fix:** More reliable capture of version history in cases where sync conflicts occur.
+- **New:** Drafts migration can now optionally assign a tag to migrated drafts.
+- **Change:** Performance profiling of text editing. Handled some low hanging fruit to improve rendering performance of text, especially longer texts.
+- **Fix:** Print step not saving "HTML" option selection.
+- **Fix:** Merge operation not adding line feeds for non-blank separator.
+- **Fix:** VO labelling for recent tags quick entry incorrect.
+- **New:** Some improvements in Find & Replace view.  Restores last search.  Clear buttons.
+
 #### v0.1.1.59
 
 - **BREAKING Change:** Credential script object has been changed to support arbitrary fields. If you are using this object, see docs for modifications needed. There are convenience methods to create ones pre-configured for user/pass, etc. [Docs](https://github.com/agiletortoise/drafts-documentation/wiki/Credential)

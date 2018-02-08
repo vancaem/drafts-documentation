@@ -9,7 +9,7 @@ html, button, input, select, textarea,
 }
 
 body {
-    color: #777;
+    color: #444;
 }
 
 .pure-img-responsive {
@@ -55,6 +55,15 @@ The content `<div>` is where all your content goes.
     max-width: 700px;
     margin-bottom: 50px;
     line-height: 1.6em;
+}
+
+.footer {
+    margin: 0 1em;
+    padding: 0 2em;
+    max-width: 700px;
+    margin-bottom: 50px;
+    line-height: 1.6em;
+    color: #AAA;
 }
 
 .header {
@@ -139,7 +148,7 @@ appears on the left side of the page.
     */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
-        background: #1f8dd6;
+        background: #0F4280;
     }
         /*
         This styles a link within a selected menu item `<li>`.
@@ -151,10 +160,14 @@ appears on the left side of the page.
     /*
     This styles the menu heading.
     */
-    #menu .pure-menu-heading {
-        font-size: 110%;
+    #menu a.pure-menu-heading {
+        font-size: 1.25em;
         color: #fff;
         margin: 0;
+        text-align: center;
+        text-transform: none;
+        font-weight: bold;
+        padding: .6em 0;
     }
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
@@ -220,7 +233,8 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 @media (min-width: 48em) {
 
     .header,
-    .content {
+    .content,
+    .footer {
         padding-left: 2em;
         padding-right: 2em;
     }
