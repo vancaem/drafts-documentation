@@ -83,7 +83,7 @@ how it works:
 `.menu-link` represents the responsive menu toggle that shows/hides on
 small screens.
 */
-.menu-link { position: fixed; display: block; /* show this only on small screens */ top: 0; left: 0; /* "#menu width" */ background: #000; background: rgba(0, 0, 0, 0.7); font-size: 10px; /* change this value to increase/decrease button size */ z-index: 10; width: 2em; height: auto; padding: 2.1em 1.6em; }
+.menu-link { position: fixed; display: block; /* show this only on small screens */ top: 0; left: 0; /* "#menu width" */ background: #000; background: rgba(0, 0, 0, 0.5); font-size: 10px; /* change this value to increase/decrease button size */ z-index: 10; width: 2em; height: auto; padding: 1.5em .6em; }
 
 .menu-link:hover, .menu-link:focus { background: #000; }
 
