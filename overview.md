@@ -30,6 +30,11 @@ This list covers key changes and updates in Drafts 5 for those familiar with ear
 - **Support for multiple accounts**. Actions can target different accounts for integrated OAuth services like Twitter, Google and Dropbox.
 - **New Action Directory**. Significantly improved sharing of actions through the Action Directory. The directory now supports updating and removing your shared items, and posting of action groups and well as individual actions.
 
+#### Apple Watch
+
+- **Add/remove tags from drafts**
+- **Flag and unflag drafts**
+
 #### General
 
 - All new, smoother user-interface.

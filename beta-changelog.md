@@ -2,6 +2,26 @@
 title: Changelog
 ---
 
+#### v0.1.1.62
+
+- **New:** Prompt additions... [Docs](https://github.com/agiletortoise/drafts-documentation/wiki/Prompt)
+    - `addTextView` support for larger text input area.
+    - `addSwitch` support for on/off toggle switch.
+    - `addDatePicker` for date and or time pickers
+    - `addSelect` for single or multi-option selection controls.
+- **New:** TextExpander fill-in support.
+- **Fix:** Sync should not try to run when network is unreachable.
+- **Fix:** Capture from the watch with no tags should not get "0" assigned.
+- **Fix:** "Invalid callback URL" warning should not appear for callback URL steps/scripts not set to wait for a response.
+- **New:** Allow renaming of export file when exporting a script from script step.
+- **Fix:** setting isTrashed and isArchived properties on draft script object did not work.
+- **Fix:** editor.setSelectedRange should include consideration of content offsets.
+- **Change:** Some more adjustments to line number positioning.
+- **Fix:** Script step import/export button text clipping on smaller devices.
+- **Fix:** Dimming view not always dismissed if action disposed of draft after success.
+- **Fix:** Few improvements for SE size phones.
+- **Fix:** List auto-completion should recognize a completed task line beginning ("- [x] ")
+
 #### v0.1.1.60
 
 - **New:** Migrate Actions and Keys from Drafts 4 available in Settings. Requires latest Drafts 4 beta.  Still quite a few things that will not migrate, but many of the basic ones will.
