@@ -22,6 +22,17 @@ title: Changelog
 - **Fix:** Few improvements for SE size phones.
 - **Fix:** List auto-completion should recognize a completed task line beginning ("- [x] ")
 
+#### v0.1.1.61
+
+- **New:** Watch app can flag, unflag, tag, untag drafts - still needs some design work.
+- **New:** Watch app has setting for default tag to assign to drafts captured on the watch (set in iPhone Watch app)
+- **New:** "Hide toolbar when editing" setting. Now in "Aa" appearrance view.
+- **Fix:** Un-hide keyboard row if an action group is selected and it's hidden.
+- **Fix:** Adjustments for content and scrolling insets on iPhone X.
+- **Fix:** Merge operation should merge tags to new draft.
+- **Change:** Work on prompt presentation animations.
+- **Change:** Updates to default action groups (only applies to new installations).
+
 #### v0.1.1.60
 
 - **New:** Migrate Actions and Keys from Drafts 4 available in Settings. Requires latest Drafts 4 beta.  Still quite a few things that will not migrate, but many of the basic ones will.

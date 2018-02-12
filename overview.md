@@ -34,6 +34,7 @@ This list covers key changes and updates in Drafts 5 for those familiar with ear
 
 - **Add/remove tags from drafts**
 - **Flag and unflag drafts**
+- **Siri support** "Create a note using Drafts", etc.
 
 #### General
 
