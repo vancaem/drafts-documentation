@@ -2,6 +2,20 @@
 title: Changelog
 ---
 
+#### v0.1.1.63
+
+- **IMPORTANT:** Due to data level changes, if you have a previous beta installed, you will need to delete it before installing this build! Data will re-sync from iCloud, but take appropriate backup steps as you see fit.
+- **New:** Reworked the draft list filtering sidebar and quick access shelf at bottom. Filtering can now be done based on more than one tag, and also on "untagged" drafts.
+- **New:** Manual sort of Action Groups. Either via drag and drop, or traditional table reordering in Manage groups view.
+- **New:** Action search.
+- **Change:** More aggressive capture of version histories and some more work on sync conflict resolution.
+- **Fix:** Dimming view regression cancelling action drawer animation.
+- **Fix:** Label clipping in migration window.
+- **Change:** Round output of location coordinate tags in template processor.
+- **Change:** Some work on performance...mostly low-hanging fruit.
+- **New:** Watch should broadcast Handoff information for current draft.
+- **New:** "minuteInterval" option for date pickers in prompts to specify how many minutes for each step in time selection.
+
 #### v0.1.1.62
 
 - **New:** Prompt additions... [Docs](https://github.com/agiletortoise/drafts-documentation/wiki/Prompt)
