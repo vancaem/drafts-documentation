@@ -2,7 +2,7 @@
 title: Changelog
 ---
 
-#### v0.1.1.63
+#### v0.1.1.64
 
 - **IMPORTANT:** Due to data level changes, if you have a previous beta installed, you will need to delete it before installing this build! Data will re-sync from iCloud, but take appropriate backup steps as you see fit.
 - **New:** Reworked the draft list filtering sidebar and quick access shelf at bottom. Filtering can now be done based on more than one tag, and also on "untagged" drafts.
