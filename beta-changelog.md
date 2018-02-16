@@ -2,6 +2,23 @@
 title: Changelog
 ---
 
+#### v0.1.1.65
+
+- **New:** Pin mode replaced with "Focus" mode. Still disables the creation of new drafts after a timeout, and now also changes the behavior of "after success" settings to open next draft instead of a new draft if the action archives or trashes current draft.
+- **New:** "After success" now has an additional "Ask" option, which will prompt after running the action and ask if you want to archive, trash or skip.
+- **New:** Add visual indicator of key action presses. Probably needs a spinner but fades the key while the action is running for now.
+- **New:** Along with latest Drafts 4 beta, support for "Drafts 5: Add as Callback" migration, accessed from Action edit screen in Drafts 4. This is for actions that cannot be directly migrated to Drafts 5, and creates an action in Drafts 5 which calls the Drafts 4 action as a callback URL.
+- **Change:** Rename `editor.focus()` to `editor.activate()` to avoid confusion with focus mode.  Old method still works for now, but will be phased out.
+- **New:** `app.themeMode` property. Allows getting or setting of 'light', 'dark' or 'automatic' theme mode from script.
+- **New:** D4 key migrator will migrate "Toggle dark theme" command now.
+- **Change:** Better handling of network reachability for actions which require network.
+- **Fix:** Migrating URL actions should attempt to change occurrences of "drafts4:" with "drafts5:".
+- **Fix:** Recent tags should not allow duplicates.
+- **Fix:** Importing action groups would fail with "Invalid" message.
+- **Fix:** Hiding keyboard hides keys again.
+- **Fix:** Crasher deleting last action from a group in the group edit screen.
+- **Fix:** TJSTodo object was not setting tags properly.
+
 #### v0.1.1.64
 
 - **IMPORTANT:** Due to data level changes, if you have a previous beta installed, you will need to delete it before installing this build! Data will re-sync from iCloud, but take appropriate backup steps as you see fit.

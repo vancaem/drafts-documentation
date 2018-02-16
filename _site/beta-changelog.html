@@ -78,7 +78,26 @@
         </div>
 
         <div class="content">
-          <h4 id="v01164">v0.1.1.64</h4>
+          <h4 id="v01165">v0.1.1.65</h4>
+
+<ul>
+  <li><strong>New:</strong> Pin mode replaced with “Focus” mode. Still disables the creation of new drafts after a timeout, and now also changes the behavior of “after success” settings to open next draft instead of a new draft if the action archives or trashes current draft.</li>
+  <li><strong>New:</strong> “After success” now has an additional “Ask” option, which will prompt after running the action and ask if you want to archive, trash or skip.</li>
+  <li><strong>New:</strong> Add visual indicator of key action presses. Probably needs a spinner but fades the key while the action is running for now.</li>
+  <li><strong>New:</strong> Along with latest Drafts 4 beta, support for “Drafts 5: Add as Callback” migration, accessed from Action edit screen in Drafts 4. This is for actions that cannot be directly migrated to Drafts 5, and creates an action in Drafts 5 which calls the Drafts 4 action as a callback URL.</li>
+  <li><strong>Change:</strong> Rename <code class="highlighter-rouge">editor.focus()</code> to <code class="highlighter-rouge">editor.activate()</code> to avoid confusion with focus mode.  Old method still works for now, but will be phased out.</li>
+  <li><strong>New:</strong> <code class="highlighter-rouge">app.themeMode</code> property. Allows getting or setting of ‘light’, ‘dark’ or ‘automatic’ theme mode from script.</li>
+  <li><strong>New:</strong> D4 key migrator will migrate “Toggle dark theme” command now.</li>
+  <li><strong>Change:</strong> Better handling of network reachability for actions which require network.</li>
+  <li><strong>Fix:</strong> Migrating URL actions should attempt to change occurrences of “drafts4:” with “drafts5:”.</li>
+  <li><strong>Fix:</strong> Recent tags should not allow duplicates.</li>
+  <li><strong>Fix:</strong> Importing action groups would fail with “Invalid” message.</li>
+  <li><strong>Fix:</strong> Hiding keyboard hides keys again.</li>
+  <li><strong>Fix:</strong> Crasher deleting last action from a group in the group edit screen.</li>
+  <li><strong>Fix:</strong> TJSTodo object was not setting tags properly.</li>
+</ul>
+
+<h4 id="v01164">v0.1.1.64</h4>
 
 <ul>
   <li><strong>IMPORTANT:</strong> Due to data level changes, if you have a previous beta installed, you will need to delete it before installing this build! Data will re-sync from iCloud, but take appropriate backup steps as you see fit.</li>

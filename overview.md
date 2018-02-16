@@ -6,7 +6,8 @@ This list covers key changes and updates in Drafts 5 for those familiar with ear
 #### Draft Storage and Organization
 
 - **Tagging**. Assign multiple tags to drafts to help stay organized. Tags can be used to filter the draft list and queries - for all inbox, archives, flagged drafts - creating project workspaces.
-- **Pin current draft**. One of Drafts key feature is always opening to a new draft, but sometimes it's useful to temporarily disable new draft creation when you are working on a longer draft. When pinning is enabled, Drafts will always return where you left off.
+- **Filtering**. The inbox, archive, flagged and trash folder can be filtered by one or more tags, or to display untagged drafts to create virtual workspaces for projects.
+- **Focus mode**. One of Drafts key feature is always opening to a new draft, but sometimes it's useful to temporarily disable new draft creation when you are working on a longer draft, or processing a series of drafts. When focus mode is enabled, will always return to the last edited draft, and "After success" actions will open the next draft rather than a new one, to allow quickly processing a series of drafts without having to re-open them one at a time from the draft list.
 - **Next-Previous navigation**. Via buttons or keyboard shortcuts, easily move to the next or previous draft for quick processing.
 - **More control over the draft list**. Display just title, extended previews, last run action, or not. Your choice.
 - **More efficient, fast iCloud sync**. Sync has now been expanded to many user settings as well.
