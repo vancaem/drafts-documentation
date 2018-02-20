@@ -2,6 +2,15 @@
 title: Changelog
 ---
 
+#### v0.1.1.66
+
+- **New:** Workspaces. The list options screen now has more advanced options for controlling sorting of each draft list tab, etc.  These filtering settings can also be saved as workspaces that can be re-applied.
+- **Fix:** TJSProject should support "tags" property.
+- **Change:** Some changes to display of current filtering in draft list.
+- **Fix:** Trash cleanup should work off accessed date, not modified date.
+- **Change:** Disable smart quotes and dashes in URL template editing fields.
+- **Fix:** With actions list pinned on iPad, actions which had after success effects could hide action drawer when they shouldn't.
+
 #### v0.1.1.65
 
 - **New:** Pin mode replaced with "Focus" mode. Still disables the creation of new drafts after a timeout, and now also changes the behavior of "after success" settings to open next draft instead of a new draft if the action archives or trashes current draft.
