@@ -2,6 +2,20 @@
 title: Changelog
 ---
 
+#### v0.1.1.67
+
+- **Fix:** Append/prepend from share extension might not always get picked up if the main app had the draft loaded.  Now should immediately refresh, even in split view.
+- **Change:** Refactor drawer animations (again) to fix a few glitches and streamline the code.
+- **Fix:** If tag editor was visible, flagged status for current draft would not update if changed in script.
+- **Fix:** Dragging and dropping a draft from draft list on an action in the action list could result in the action running twice.
+- **Fix:** Incorrect rounding of longitude and latitude output in templates.
+- **Change:** Adjustments to key text.
+- **Fix:** Glitchy animation reordering actions in the action list.
+- **Change:** Performance improvements on the Watch app.
+- **Change:** Re-enabled extended keyboard resizing on iPhone X because it's weird if I don't even if it causes a few glitches.
+- **Fix:** Request notification access if the "flagged only" switch is enabled in settings.
+- **Fix:** Changing from split view to  full screen might not enable pinning again on action list view.
+
 #### v0.1.1.66
 
 - **New:** Workspaces. The list options screen now has more advanced options for controlling sorting of each draft list tab, etc.  These filtering settings can also be saved as workspaces that can be re-applied.

@@ -26,7 +26,7 @@
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="/drafts-documentation/assets/css/style.css?v=653ef4f2d28c658251c6c46dee7ec09c87109f9f">
+    <link rel="stylesheet" href="/drafts-documentation/assets/css/style.css?v=8a3ec26838a2e4a9d85fdc54fffab0d1137de691">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -79,7 +79,23 @@
         </div>
 
         <div class="content">
-          <h4 id="v01166">v0.1.1.66</h4>
+          <h4 id="v01167">v0.1.1.67</h4>
+
+<ul>
+  <li><strong>Fix:</strong> Append/prepend from share extension might not always get picked up if the main app had the draft loaded.  Now should immediately refresh, even in split view.</li>
+  <li><strong>Change:</strong> Refactor drawer animations (again) to fix a few glitches and streamline the code.</li>
+  <li><strong>Fix:</strong> If tag editor was visible, flagged status for current draft would not update if changed in script.</li>
+  <li><strong>Fix:</strong> Dragging and dropping a draft from draft list on an action in the action list could result in the action running twice.</li>
+  <li><strong>Fix:</strong> Incorrect rounding of longitude and latitude output in templates.</li>
+  <li><strong>Change:</strong> Adjustments to key text.</li>
+  <li><strong>Fix:</strong> Glitchy animation reordering actions in the action list.</li>
+  <li><strong>Change:</strong> Performance improvements on the Watch app.</li>
+  <li><strong>Change:</strong> Re-enabled extended keyboard resizing on iPhone X because it’s weird if I don’t even if it causes a few glitches.</li>
+  <li><strong>Fix:</strong> Request notification access if the “flagged only” switch is enabled in settings.</li>
+  <li><strong>Fix:</strong> Changing from split view to  full screen might not enable pinning again on action list view.</li>
+</ul>
+
+<h4 id="v01166">v0.1.1.66</h4>
 
 <ul>
   <li><strong>New:</strong> Workspaces. The list options screen now has more advanced options for controlling sorting of each draft list tab, etc.  These filtering settings can also be saved as workspaces that can be re-applied.</li>
