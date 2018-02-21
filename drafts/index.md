@@ -17,3 +17,4 @@ The draft list is organized into four tabs:
 
 - [Draft List Filtering & Options]({{ site.baseurl }}/drafts/listoptions)
 - [Tagging]({{ site.baseurl }}/drafts/tagging)
+- [Version History]({{ site.baseurl }}/drafts/versionhistory)
