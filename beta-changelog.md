@@ -2,6 +2,15 @@
 title: Changelog
 ---
 
+#### v0.1.1.68
+
+- **New:** Left-right arrows on external keyboard now navigate between tabs in draft list.
+- **New:** Left-right arrows on external keyboard now navigate between action groups in action list.
+- **Fix:** Bad locale values passed to `editor.dictate(locale)` could prevent dictation from working.
+- **Fix:** Installations of the watch that had never set the default tag option in the watch app on iPhone could get default tags of "0".
+- **New:** Added more third party app URLs to app plist so they will work in link mode.
+- **New:** A few more action icons based on built-in UI elements.
+
 #### v0.1.1.67
 
 - **Fix:** Append/prepend from share extension might not always get picked up if the main app had the draft loaded.  Now should immediately refresh, even in split view.
