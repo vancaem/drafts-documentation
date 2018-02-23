@@ -12,7 +12,7 @@ Display a prompt with buttons and optional a text input field.  The results of t
 - **Include text field** *(default: OFF)*: If ON, the prompt will include a single line text input field which can be used to take information from the user.
 Text field default (default: blank): The default text to place in the text field, if included. This field can contain Drafts tags, like [[title]] to set a default value. After the prompt is displayed, the value in the text field will be accessible via the a `[[prompt_text]]` tag in scripts and templates used in steps after the prompt step.
 - **Include cancel button** *(default: ON)*: If ON, a "Cancel" button will automatically be included in the prompt. The cancel button will cancel execution of the action and no further steps after the prompt will be run.
-- **Buttons** *(default: OK)*: A string listing buttons to include in the prompt. Multiple buttons can be listed by using the | character as a separator, for example "Red|Green|Blue" would result in three buttons appearing in the prompt. After the prompt is displayed, the name of the button tapped by the user will be available in the `[[prompt_button]]` tag in scripts and templates used in steps after the prompt step.
+- **Buttons** *(default: OK)*: A string listing buttons to include in the prompt. Multiple buttons can be listed by using the \| character as a separator, for example "Red\|Green\|Blue" would result in three buttons appearing in the prompt. After the prompt is displayed, the name of the button tapped by the user will be available in the `[[prompt_button]]` tag in scripts and templates used in steps after the prompt step.
 
 #### Keys, Tags and Multiple Prompts
 

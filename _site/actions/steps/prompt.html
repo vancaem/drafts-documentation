@@ -90,18 +90,7 @@
   <li><strong>Include text field</strong> <em>(default: OFF)</em>: If ON, the prompt will include a single line text input field which can be used to take information from the user.
 Text field default (default: blank): The default text to place in the text field, if included. This field can contain Drafts tags, like [[title]] to set a default value. After the prompt is displayed, the value in the text field will be accessible via the a <code class="highlighter-rouge">[[prompt_text]]</code> tag in scripts and templates used in steps after the prompt step.</li>
   <li><strong>Include cancel button</strong> <em>(default: ON)</em>: If ON, a “Cancel” button will automatically be included in the prompt. The cancel button will cancel execution of the action and no further steps after the prompt will be run.</li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td><strong>Buttons</strong> <em>(default: OK)</em>: A string listing buttons to include in the prompt. Multiple buttons can be listed by using the</td>
-          <td>character as a separator, for example “Red</td>
-          <td>Green</td>
-          <td>Blue” would result in three buttons appearing in the prompt. After the prompt is displayed, the name of the button tapped by the user will be available in the <code class="highlighter-rouge">[[prompt_button]]</code> tag in scripts and templates used in steps after the prompt step.</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
+  <li><strong>Buttons</strong> <em>(default: OK)</em>: A string listing buttons to include in the prompt. Multiple buttons can be listed by using the | character as a separator, for example “Red|Green|Blue” would result in three buttons appearing in the prompt. After the prompt is displayed, the name of the button tapped by the user will be available in the <code class="highlighter-rouge">[[prompt_button]]</code> tag in scripts and templates used in steps after the prompt step.</li>
 </ul>
 
 <h4 id="keys-tags-and-multiple-prompts">Keys, Tags and Multiple Prompts</h4>
