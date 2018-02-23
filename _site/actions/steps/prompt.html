@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="icon" href="/drafts-documentation/images/favicon.png">
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Action Step – Prompt | Drafts 5</title>
+<meta property="og:title" content="Action Step – Prompt" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Documentation for Drafts 5" />
+<meta property="og:description" content="Documentation for Drafts 5" />
+<link rel="canonical" href="http://localhost:4000/drafts-documentation/actions/steps/prompt.html" />
+<meta property="og:url" content="http://localhost:4000/drafts-documentation/actions/steps/prompt.html" />
+<meta property="og:site_name" content="Drafts 5" />
+<script type="application/ld+json">
+{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/drafts-documentation/actions/steps/prompt.html","publisher":null,"image":null,"headline":"Action Step – Prompt","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="/drafts-documentation/assets/css/style.css?v=8a3ec26838a2e4a9d85fdc54fffab0d1137de691">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="#">
+              <img src="/drafts-documentation/images/drafts-logo.svg" />
+              <br style="clear:both;">
+              Drafts 5<br>
+              Documentation
+            </a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="/drafts-documentation/" class="pure-menu-link">Home</a></li>
+                <li class="pure-menu-item"><a href="/drafts-documentation/overview" class="pure-menu-link">Overview</a></li>
+                <li class="pure-menu-item"><a href="/drafts-documentation/gettingstarted" class="pure-menu-link">Getting Started</a></li>
+                <li class="pure-menu-item"><a href="/drafts-documentation/drafts" class="pure-menu-link">Managing Drafts</a></li>
+                <li class="pure-menu-item"><a href="/drafts-documentation/editor" class="pure-menu-link">Editor</a></li>
+                <li class="pure-menu-item"><a href="/drafts-documentation/actions" class="pure-menu-link">Actions</a></li>
+                <li class="pure-menu-item"><a href="/drafts-documentation/scripting" class="pure-menu-link">Scripting</a></li>
+                <li class="pure-menu-item"><a href="/drafts-documentation/settings" class="pure-menu-link">Settings</a></li>
+                <li class="pure-menu-item"><a href="/drafts-documentation/urls" class="pure-menu-link">URL Schemes</a></li>
+                <li class="pure-menu-item"><a href="/drafts-documentation/beta-changelog" class="pure-menu-link">Changelog</a></li>
+
+                <li class="pure-menu-item menu-item-divided pure-menu-selected">
+                    <a href="#" class="pure-menu-link">Resources</a>
+                </li>
+
+                <li class="pure-menu-item"><a href="http://drafts5-actions.agiletortoise.com/" class="pure-menu-link">Action Directory</a></li>
+                <li class="pure-menu-item"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdIYw53txLUQTlfoodfYFL4L5DW67hUzBOt2lcGcFCG0i6Trg/viewform?usp=sf_link" class="pure-menu-link">Join the Slack</a></li>
+                <li class="pure-menu-item"><a href="https://agiletortoise.zendesk.com/hc/en-us/requests/new" class="pure-menu-link">Get Help</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>Action Step – Prompt</h1>
+        </div>
+
+        <div class="content">
+          <p>Display a prompt with buttons and optional a text input field.  The results of the prompt are placed in a template tags for use in subsequent action steps.  More advanced prompts are possible with <a href="https://github.com/agiletortoise/drafts-documentation/wiki/Prompt">the prompt script object</a> as well.</p>
+
+<h2 id="options">Options</h2>
+
+<ul>
+  <li><strong>Key</strong> <em>(default: prompt)</em>: The key is used to create Drafts tags based on the text input and/or buttons pressed when the prompt is displayed to the user. See discussion below.</li>
+  <li><strong>Title</strong> <em>(default: Prompt)</em>: A short title of the prompt window.</li>
+  <li><strong>Message</strong> <em>(default: blank)</em>: A longer text to appear in the prompt and explain the input desired, if necessary.</li>
+  <li><strong>Include text field</strong> <em>(default: OFF)</em>: If ON, the prompt will include a single line text input field which can be used to take information from the user.
+Text field default (default: blank): The default text to place in the text field, if included. This field can contain Drafts tags, like [[title]] to set a default value. After the prompt is displayed, the value in the text field will be accessible via the a <code class="highlighter-rouge">[[prompt_text]]</code> tag in scripts and templates used in steps after the prompt step.</li>
+  <li><strong>Include cancel button</strong> <em>(default: ON)</em>: If ON, a “Cancel” button will automatically be included in the prompt. The cancel button will cancel execution of the action and no further steps after the prompt will be run.</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Buttons</strong> <em>(default: OK)</em>: A string listing buttons to include in the prompt. Multiple buttons can be listed by using the</td>
+          <td>character as a separator, for example “Red</td>
+          <td>Green</td>
+          <td>Blue” would result in three buttons appearing in the prompt. After the prompt is displayed, the name of the button tapped by the user will be available in the <code class="highlighter-rouge">[[prompt_button]]</code> tag in scripts and templates used in steps after the prompt step.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<h4 id="keys-tags-and-multiple-prompts">Keys, Tags and Multiple Prompts</h4>
+
+<p>Prompts use Drafts tagging system to expose values from the prompt for use in action steps which occur after the prompt in the same action. The tags used are constructed using the “Key” value for the prompt.  If using a single prompt in an action, the default “prompt” key is fine and will result in two new tags being available:</p>
+
+<ul>
+  <li><strong>[[prompt_button]]</strong>: will contain the name of the button pressed in the prompt.</li>
+  <li><strong>[[prompt_text]]</strong>: will contain the text in the optional text field.
+If using multiple prompts in the same action, you can distinguish results by the changing the “Key” on the prompt steps.  A key of “myselection” will result in tags <code class="highlighter-rouge">[[myselection_button]]</code> and <code class="highlighter-rouge">[[myselection_text]]</code>, etc.</li>
+</ul>
+
+<p>These tags can then be used in subsequent steps.  A common application would be to prompt for a filename to use, then use the <code class="highlighter-rouge">[[prompt_text]]</code> tag as the filename value in a Dropbox step. The Save to Dropbox as… action in the directory demonstrates this example.</p>
+
+<p>If you wish to use the results of prompt in an script action step, you can retrieve the values using the “draft.getTag(‘tagName’);’ function.</p>
+
+        </div>
+
+        <div class="footer">
+          <div>
+            <a href="https://itunes.apple.com/app/id1236254471?ls=1&mt=8">
+              <img src="/drafts-documentation/images/appstore.svg" %>
+            </a>
+          </div>
+          &copy; 2018 by <a href="https://agiletortoise.com/">Agile Tortoise, Inc.</a>
+        </div>
+    </div>
+</div>
+
+<script src="/drafts-documentation/assets/javascripts/ui.js"></script>
+
+  
+
+</body>
+</html>

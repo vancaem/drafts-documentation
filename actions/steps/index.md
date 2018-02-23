@@ -27,5 +27,6 @@ title: Action Steps
 - [Script]({{ site.baseurl }}/actions/steps/script)
 - [Open URL]({{ site.baseurl }}/actions/steps/openurl)
 - [Callback URL]({{ site.baseurl }}/actions/steps/callbackurl)
+- [Prompt]({{ site.baseurl }}/actions/steps/prompt)
 - [Run Workflow]({{ site.baseurl }}/actions/steps/runworkflow)
 - [Include Action]({{ site.baseurl }}/actions/steps/includeaction)
