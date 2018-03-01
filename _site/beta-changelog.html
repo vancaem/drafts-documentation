@@ -79,7 +79,56 @@
         </div>
 
         <div class="content">
-          <h4 id="v01168">v0.1.1.68</h4>
+          <h4 id="v01171">v0.1.1.71</h4>
+
+<ul>
+  <li><strong>Change:</strong> Bottom shelf in draft list is now for workspace selection.</li>
+  <li><strong>New:</strong> Workspaces today widget.</li>
+  <li><strong>New:</strong> Recent drafts widget displays flags and tags.</li>
+  <li><strong>Fix:</strong> Recent drafts widget not always sized properly on initial display.</li>
+  <li><strong>New:</strong> /workspace?name=XXX URL scheme to load a workspace.</li>
+  <li><strong>Change:</strong> Action group bottom tab now just a list of groups in sort order, more like tabs at top in D4.</li>
+  <li><strong>Fix:</strong> “Save and Exit” option editing action step would not save properly in some circumstances.</li>
+  <li><strong>Fix:</strong> Applying Workspace settings with no tag filter could result in filtering for empty tag.</li>
+  <li><strong>Fix?:</strong> Hacky bits to force tint color on some system screens that want to inherit tint color from themes that don’t work well for their non-dark theminess (like File Browser, Mail windows, etc.).</li>
+</ul>
+
+<h4 id="v01170">v0.1.1.70</h4>
+
+<ul>
+  <li><strong>Fix:</strong> Workspaces not saving sort order properly.</li>
+  <li><strong>Fix:</strong> Show omitted tags in header of draft list.</li>
+  <li><strong>New:</strong> New vs. Save Current options creating Workspaces.</li>
+</ul>
+
+<h4 id="v01169">v0.1.1.69</h4>
+
+<ul>
+  <li><strong>New:</strong> Keyboard shortcut assignment conflict feedback in UI. Shows conflicting assignments when editing.</li>
+  <li><strong>New:</strong> Drag and drop reordering of Workspaces.  If you have existing Workspaces you may have to move them around a couple of times to get them to start sorting properly….or delete and re-create them. They did not get sort indexes assigned prior to this build.</li>
+  <li><strong>New:</strong> Updates to tag filters and Workspaces to support omitting tags.</li>
+  <li><strong>Fix:</strong> Prevent possibility of empty tag getting added to draft.</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Change:</strong> Blacklist certain characters from tag names (!=&amp;</td>
+          <td>) to reserve them for use in query strings.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li><strong>New:</strong> Migration of script action steps from Drafts 4 should work now with conversion of function signatures where needed. Please let me know if any fail after migration.</li>
+  <li><strong>Fix:</strong> Arrow keys only when through keyboard assigned action groups.</li>
+  <li><strong>Fix:</strong> Crash moving last action out of a group in Manage view.</li>
+  <li><strong>Fix:</strong> Changes to keyboard shortcuts were not being picked up right away in some cases.</li>
+  <li><strong>Fix:</strong> Share extension was not loading file content properly due to variable scoping issue.</li>
+  <li><strong>Fix:</strong> Changes to “Count only flagged” switch in Notification settings not sticking.</li>
+  <li><strong>Change:</strong> Performance improvements to lookup of actions when triggered via external keyboard shortcut.</li>
+  <li><strong>Fix:</strong> Limit keyboard shortcut text to one character.</li>
+</ul>
+
+<h4 id="v01168">v0.1.1.68</h4>
 
 <ul>
   <li><strong>New:</strong> Left-right arrows on external keyboard now navigate between tabs in draft list.</li>

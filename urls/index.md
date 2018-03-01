@@ -83,6 +83,15 @@ Open drafts directly to the draft search field.
 - **Examples**
   - `drafts5://x-callback-url/search?query=QUERY-TEXT`
 
+### /workspace
+
+Open drafts directly the draft list with a named workspace selected.
+
+- **Arguments**
+  - **name** *[string, required]* : Name of a saved workspace to load.
+- **Examples**
+  - `drafts5://x-callback-url/workspace?name=WORKSPACE-NAME`
+
 ### /runAction
 
 Run a drafts action on the passed text without saving that text to a draft.

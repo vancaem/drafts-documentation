@@ -2,6 +2,40 @@
 title: Changelog
 ---
 
+#### v0.1.1.71
+
+- **Change:** Bottom shelf in draft list is now for workspace selection.
+- **New:** Workspaces today widget.
+- **New:** Recent drafts widget displays flags and tags.
+- **Fix:** Recent drafts widget not always sized properly on initial display.
+- **New:** /workspace?name=XXX URL scheme to load a workspace.
+- **Change:** Action group bottom tab now just a list of groups in sort order, more like tabs at top in D4.
+- **Fix:** "Save and Exit" option editing action step would not save properly in some circumstances.
+- **Fix:** Applying Workspace settings with no tag filter could result in filtering for empty tag.
+- **Fix?:** Hacky bits to force tint color on some system screens that want to inherit tint color from themes that don't work well for their non-dark theminess (like File Browser, Mail windows, etc.).
+
+#### v0.1.1.70
+
+- **Fix:** Workspaces not saving sort order properly.
+- **Fix:** Show omitted tags in header of draft list.
+- **New:** New vs. Save Current options creating Workspaces.
+
+#### v0.1.1.69
+
+- **New:** Keyboard shortcut assignment conflict feedback in UI. Shows conflicting assignments when editing.
+- **New:** Drag and drop reordering of Workspaces.  If you have existing Workspaces you may have to move them around a couple of times to get them to start sorting properly....or delete and re-create them. They did not get sort indexes assigned prior to this build.
+- **New:** Updates to tag filters and Workspaces to support omitting tags.
+- **Fix:** Prevent possibility of empty tag getting added to draft.
+- **Change:** Blacklist certain characters from tag names (!=&|) to reserve them for use in query strings.
+- **New:** Migration of script action steps from Drafts 4 should work now with conversion of function signatures where needed. Please let me know if any fail after migration.
+- **Fix:** Arrow keys only when through keyboard assigned action groups.
+- **Fix:** Crash moving last action out of a group in Manage view.
+- **Fix:** Changes to keyboard shortcuts were not being picked up right away in some cases.
+- **Fix:** Share extension was not loading file content properly due to variable scoping issue.
+- **Fix:** Changes to "Count only flagged" switch in Notification settings not sticking.
+- **Change:** Performance improvements to lookup of actions when triggered via external keyboard shortcut.
+- **Fix:** Limit keyboard shortcut text to one character.
+
 #### v0.1.1.68
 
 - **New:** Left-right arrows on external keyboard now navigate between tabs in draft list.

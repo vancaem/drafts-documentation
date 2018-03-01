@@ -24,4 +24,4 @@ If using multiple prompts in the same action, you can distinguish results by the
 
 These tags can then be used in subsequent steps.  A common application would be to prompt for a filename to use, then use the `[[prompt_text]]` tag as the filename value in a Dropbox step. The Save to Dropbox as... action in the directory demonstrates this example.
 
-If you wish to use the results of prompt in an script action step, you can retrieve the values using the `draft.getTemplateTag('tagName');`` function.  
+If you wish to use the results of prompt in an script action step, you can retrieve the values using the `draft.getTemplateTag('tagName');` function.  
