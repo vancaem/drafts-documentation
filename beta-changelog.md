@@ -2,6 +2,26 @@
 title: Changelog
 ---
 
+#### v0.1.1.73
+
+- **New:** "Simple List" syntax type. Supports list completion, tappable tasks and basic Markdown. Mostly intended to offer an alternative to allow selection of different fonts/styles for a check list type draft.
+- **Change:** Tweaks to share extension layout.
+- **Change:** Be less aggressive about reformatting javascript for better performance with longer scripts.
+- **Fix:** Removing tags from a draft would not propagate properly through sync.
+- **Fix:** call /open URL with action specified on the current draft did not work.
+- **Fix:** Migration of mail and message steps did not properly migration recipients.
+- **Fix:** Crash dragging workspace to invalid area.
+- **Fix:** "Show all" in draft list should clear query field.
+- **Fix:** New drafts were not getting the default language grammar assigned.
+- **Fix:** VO labelling fixes in several areas
+
+#### v0.1.1.72
+
+- **Fix:** Changes to language grammar (syntax) of the current draft not immediately taking effect.
+- **Fix:** Workspace sort index not synching properly across devices.
+- **Fix:** Workspaces with duplicate names could get highlighted improperly in workspace tabs view.
+- **Fix:** Keyboard shortcut conflicts identified incorrectly.
+
 #### v0.1.1.71
 
 - **Change:** Bottom shelf in draft list is now for workspace selection.
