@@ -26,7 +26,7 @@
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="/drafts-documentation/assets/css/style.css?v=8a3ec26838a2e4a9d85fdc54fffab0d1137de691">
+    <link rel="stylesheet" href="/drafts-documentation/assets/css/style.css?v=86ce63c5487912ac44f72bd524235009d2ab7f0c">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -202,6 +202,31 @@
       <li><code class="highlighter-rouge">drafts5://x-callback-url/append?uuid=UUID-TO-VALID-DRAFT&amp;text=TEXT-TO-ADD</code>
         <ul>
           <li>Adds “TEXT-TO-ADD” to the end of the draft.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="replacerange">/replaceRange</h3>
+
+<p>Replace content in an existing draft, based on a range.</p>
+
+<ul>
+  <li><strong>Arguments</strong>
+    <ul>
+      <li><strong>uuid</strong> <em>[string, required]</em> : The UUID identifier for a draft.</li>
+      <li><strong>text</strong> <em>[string, required]</em> : Text to insert in the specified range</li>
+      <li><strong>start</strong> <em>[integer, required]</em> : Start position of the range to replace.</li>
+      <li><strong>length</strong> <em>[integer, required]</em> : Number of characters in the range to replace.</li>
+    </ul>
+  </li>
+  <li><strong>Examples</strong>
+    <ul>
+      <li><code class="highlighter-rouge">drafts4://x-callback-url/replaceRange?uuid=UUID-TO-VALID-DRAFT&amp;text=TEXT-TO-INSERT&amp;start=0&amp;length=10
+</code>
+        <ul>
+          <li>Open the draft and replace characters 0 through 10 with TEXT-TO-INSERT.</li>
         </ul>
       </li>
     </ul>

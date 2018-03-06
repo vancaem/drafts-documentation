@@ -73,6 +73,20 @@ Append the passed text to the end of a draft identified by the UUID argument.
   - `drafts5://x-callback-url/append?uuid=UUID-TO-VALID-DRAFT&text=TEXT-TO-ADD`
     - Adds "TEXT-TO-ADD" to the end of the draft.
 
+### /replaceRange
+
+Replace content in an existing draft, based on a range.
+
+- **Arguments**
+  - **uuid** *[string, required]* : The UUID identifier for a draft.
+  - **text** *[string, required]* : Text to insert in the specified range
+  - **start** *[integer, required]* : Start position of the range to replace.
+  - **length** *[integer, required]* : Number of characters in the range to replace.
+- **Examples**
+  - `drafts4://x-callback-url/replaceRange?uuid=UUID-TO-VALID-DRAFT&text=TEXT-TO-INSERT&start=0&length=10
+`
+    - Open the draft and replace characters 0 through 10 with TEXT-TO-INSERT.
+
 ### /search
 
 Open drafts directly to the draft search field.

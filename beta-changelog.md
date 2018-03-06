@@ -2,6 +2,17 @@
 title: Changelog
 ---
 
+#### v0.1.1.74
+
+- **New:** `GoogleDrive` script object to read and write files on Google Drive. [Docs](https://github.com/agiletortoise/drafts-documentation/wiki/GoogleDrive)
+- **New:** Additional commands in Workspaces widget.
+- **New:** /replaceRange URL scheme, same functionality as D4 version. [Docs]()
+- **Change:** Some refactoring in the Markdown syntax highlighting, including better handling of emphasis embedded in bold, and the reverse.
+- **Change:** Revised `draft.languageGrammar` property to work based on displayed string names of syntaxes as shown when selecting them in the appearance menu. [Docs](https://github.com/agiletortoise/drafts-documentation/wiki/Draft)
+- **Fix:** Improve conflict handling in sync.
+- **Fix:** Action and key migrations not updating last migrated date.
+- **Fix:** Some work on cleaning up VoiceOver labelling.
+
 #### v0.1.1.73
 
 - **New:** "Simple List" syntax type. Supports list completion, tappable tasks and basic Markdown. Mostly intended to offer an alternative to allow selection of different fonts/styles for a check list type draft.

@@ -26,7 +26,7 @@
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="/drafts-documentation/assets/css/style.css?v=8a3ec26838a2e4a9d85fdc54fffab0d1137de691">
+    <link rel="stylesheet" href="/drafts-documentation/assets/css/style.css?v=86ce63c5487912ac44f72bd524235009d2ab7f0c">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -79,7 +79,44 @@
         </div>
 
         <div class="content">
-          <h4 id="v01171">v0.1.1.71</h4>
+          <h4 id="v01174">v0.1.1.74</h4>
+
+<ul>
+  <li><strong>New:</strong> <code class="highlighter-rouge">GoogleDrive</code> script object to read and write files on Google Drive. <a href="https://github.com/agiletortoise/drafts-documentation/wiki/GoogleDrive">Docs</a></li>
+  <li><strong>New:</strong> Additional commands in Workspaces widget.</li>
+  <li><strong>New:</strong> /replaceRange URL scheme, same functionality as D4 version. <a href="">Docs</a></li>
+  <li><strong>Change:</strong> Some refactoring in the Markdown syntax highlighting, including better handling of emphasis embedded in bold, and the reverse.</li>
+  <li><strong>Change:</strong> Revised <code class="highlighter-rouge">draft.languageGrammar</code> property to work based on displayed string names of syntaxes as shown when selecting them in the appearance menu. <a href="https://github.com/agiletortoise/drafts-documentation/wiki/Draft">Docs</a></li>
+  <li><strong>Fix:</strong> Improve conflict handling in sync.</li>
+  <li><strong>Fix:</strong> Action and key migrations not updating last migrated date.</li>
+  <li><strong>Fix:</strong> Some work on cleaning up VoiceOver labelling.</li>
+</ul>
+
+<h4 id="v01173">v0.1.1.73</h4>
+
+<ul>
+  <li><strong>New:</strong> “Simple List” syntax type. Supports list completion, tappable tasks and basic Markdown. Mostly intended to offer an alternative to allow selection of different fonts/styles for a check list type draft.</li>
+  <li><strong>Change:</strong> Tweaks to share extension layout.</li>
+  <li><strong>Change:</strong> Be less aggressive about reformatting javascript for better performance with longer scripts.</li>
+  <li><strong>Fix:</strong> Removing tags from a draft would not propagate properly through sync.</li>
+  <li><strong>Fix:</strong> call /open URL with action specified on the current draft did not work.</li>
+  <li><strong>Fix:</strong> Migration of mail and message steps did not properly migration recipients.</li>
+  <li><strong>Fix:</strong> Crash dragging workspace to invalid area.</li>
+  <li><strong>Fix:</strong> “Show all” in draft list should clear query field.</li>
+  <li><strong>Fix:</strong> New drafts were not getting the default language grammar assigned.</li>
+  <li><strong>Fix:</strong> VO labelling fixes in several areas</li>
+</ul>
+
+<h4 id="v01172">v0.1.1.72</h4>
+
+<ul>
+  <li><strong>Fix:</strong> Changes to language grammar (syntax) of the current draft not immediately taking effect.</li>
+  <li><strong>Fix:</strong> Workspace sort index not synching properly across devices.</li>
+  <li><strong>Fix:</strong> Workspaces with duplicate names could get highlighted improperly in workspace tabs view.</li>
+  <li><strong>Fix:</strong> Keyboard shortcut conflicts identified incorrectly.</li>
+</ul>
+
+<h4 id="v01171">v0.1.1.71</h4>
 
 <ul>
   <li><strong>Change:</strong> Bottom shelf in draft list is now for workspace selection.</li>
