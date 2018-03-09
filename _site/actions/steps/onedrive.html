@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="icon" href="/drafts-documentation/images/favicon.png">
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Action Steps | Drafts 5</title>
-<meta property="og:title" content="Action Steps" />
+<title>Action Step – OneDrive | Drafts 5</title>
+<meta property="og:title" content="Action Step – OneDrive" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Documentation for Drafts 5" />
 <meta property="og:description" content="Documentation for Drafts 5" />
-<link rel="canonical" href="http://localhost:4000/drafts-documentation/actions/steps/" />
-<meta property="og:url" content="http://localhost:4000/drafts-documentation/actions/steps/" />
+<link rel="canonical" href="http://localhost:4000/drafts-documentation/actions/steps/onedrive.html" />
+<meta property="og:url" content="http://localhost:4000/drafts-documentation/actions/steps/onedrive.html" />
 <meta property="og:site_name" content="Drafts 5" />
 <script type="application/ld+json">
-{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/drafts-documentation/actions/steps/","publisher":null,"image":null,"headline":"Action Steps","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/drafts-documentation/actions/steps/onedrive.html","publisher":null,"image":null,"headline":"Action Step – OneDrive","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -75,47 +75,29 @@
 
     <div id="main">
         <div class="header">
-            <h1>Action Steps</h1>
+            <h1>Action Step – OneDrive</h1>
         </div>
 
         <div class="content">
-          <h3 id="system">System</h3>
+          <p>Create, append or prepend to files in <a href="http://onedrive.live.com">Microsoft’s OneDrive service</a>.</p>
+
+<h2 id="examples">Examples</h2>
+
+<h2 id="options">Options</h2>
 
 <ul>
-  <li><a href="/drafts-documentation/actions/steps/clipboard">Clipboard</a></li>
-  <li><a href="/drafts-documentation/actions/steps/mail">Mail</a></li>
-  <li><a href="/drafts-documentation/actions/steps/message">Message</a></li>
-  <li><a href="/drafts-documentation/actions/steps/share">Share</a></li>
-  <li><a href="/drafts-documentation/actions/steps/export">Export</a></li>
-  <li><a href="/drafts-documentation/actions/steps/print">Print</a></li>
-</ul>
-
-<h3 id="services">Services</h3>
-
-<ul>
-  <li><a href="/drafts-documentation/actions/steps/file">File</a></li>
-  <li><a href="/drafts-documentation/actions/steps/dropbox">Dropbox</a></li>
-  <li><a href="/drafts-documentation/actions/steps/twitter">Twitter</a></li>
-  <li><a href="/drafts-documentation/actions/steps/googledrive">Google Drive</a></li>
-  <li><a href="/drafts-documentation/actions/steps/onedrive">OneDrive</a></li>
-  <li><a href="/drafts-documentation/actions/steps/webdav">WebDAV</a></li>
-</ul>
-
-<h3 id="utility">Utility</h3>
-
-<ul>
-  <li><a href="/drafts-documentation/actions/steps/inserttext">Insert Text</a></li>
-</ul>
-
-<h3 id="advanced">Advanced</h3>
-
-<ul>
-  <li><a href="/drafts-documentation/actions/steps/script">Script</a></li>
-  <li><a href="/drafts-documentation/actions/steps/openurl">Open URL</a></li>
-  <li><a href="/drafts-documentation/actions/steps/callbackurl">Callback URL</a></li>
-  <li><a href="/drafts-documentation/actions/steps/prompt">Prompt</a></li>
-  <li><a href="/drafts-documentation/actions/steps/runworkflow">Run Workflow</a></li>
-  <li><a href="/drafts-documentation/actions/steps/includeaction">Include Action</a></li>
+  <li><strong>Name</strong>: Template for file name, including extension.</li>
+  <li><strong>Path</strong>: Path of folder, relative to OneDrive root, to place file. Default “/” is the root of your OneDrive folder. Should begin with “/”</li>
+  <li><strong>Template</strong>: Template for the content of the file.</li>
+  <li><strong>Write Type</strong>:
+    <ul>
+      <li><strong>create</strong>: Create a new file. If an existing file already exists at the location, create as new file with a number suffix added.</li>
+      <li><strong>replace</strong>: Create new file, overwriting an existing if it exists.</li>
+      <li><strong>prepend</strong>: Prepend template content at the beginning of the file. Create the file if it does not already exist.</li>
+      <li><strong>append</strong>: Append template content at the end of the file. Create the file if it does not already exist.</li>
+    </ul>
+  </li>
+  <li><strong>Identifier</strong>: A string identifier for the OneDrive account to use. This value is only needed if you wish to use more than one OneDrive account with Drafts. If used, all actions with the same identifier will use the same alternate login for OneDrive.</li>
 </ul>
 
         </div>

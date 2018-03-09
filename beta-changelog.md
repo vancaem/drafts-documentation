@@ -2,6 +2,22 @@
 title: Changelog
 ---
 
+#### v0.1.1.77
+
+- **New:** OneDrive action step. [Docs](https://agiletortoise.github.io/drafts-documentation/actions/steps/onedrive)
+- **New:** OneDrive scripting object to read and write files from OneDrive. [Docs](https://github.com/agiletortoise/drafts-documentation/wiki/OneDrive)
+- **Change:** Dynamic tag suggestions. When you start to the type, the keyboard row tag suggessions become query based instead of a recent tag list.  Not exactly auto-complete, but helps.
+- **Fix:** Detect and disable backup features if iCloud not available.
+- **Fix:** If "edit on select" is disabled, do not enter edit mode on a cold start of app.
+- **Change:** Updates to default actions groups setup on new installation. These will not update in existing installations, but can be re-installed from the directory if desired.  Groups are Basic, Keyboard-Basic, Keyboard-Markdown, Actions-Apps, and Processing.
+
+#### v0.1.1.75
+
+- **Fix:** Sync regression in last build prevented some updates from getting pushed to server properly.
+- **Fix:** Avoid case-sensitive comparison of keyboard shortcuts.
+- **Fix:** TJSProject object tags not exposed properly.
+- **Fix:** Changes to current workspace not getting saved agressively enough, and could revert on a cold start.
+
 #### v0.1.1.74
 
 - **New:** `GoogleDrive` script object to read and write files on Google Drive. [Docs](https://github.com/agiletortoise/drafts-documentation/wiki/GoogleDrive)

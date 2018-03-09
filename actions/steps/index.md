@@ -16,6 +16,7 @@ title: Action Steps
 - [Dropbox]({{ site.baseurl }}/actions/steps/dropbox)
 - [Twitter]({{ site.baseurl }}/actions/steps/twitter)
 - [Google Drive]({{ site.baseurl }}/actions/steps/googledrive)
+- [OneDrive]({{ site.baseurl }}/actions/steps/onedrive)
 - [WebDAV]({{ site.baseurl }}/actions/steps/webdav)
 
 ### Utility
