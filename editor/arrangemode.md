@@ -2,6 +2,8 @@
 title: Arrange Mode
 ---
 
+{% include back.html title="Editor" path="/editor" %}
+
 Drafts unique arrange mode is a quick way to work with text as individual lines (separated by a line feed) or block (separated by two line feeds). Lines or blocks can be reordered by drag and drop, duplicated, deleted or edited in place.
 
 Arrange mode can be opened for the entire content of the current draft from the arrange mode button at the bottom of the screen, or from a text selection within the draft. Arrange mode can also be used as a service from other apps via URL scheme, or triggered by a script.

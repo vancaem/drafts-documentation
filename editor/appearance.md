@@ -2,13 +2,11 @@
 title: Themes and Editor Settings
 ---
 
-## Themes
+{% include back.html title="Editor" path="/editor" %}
 
 Drafts supports app-wide themes to customize appearance, and light and dark modes. To access theme settings, open the `Aa` appearance settings screen from the bottom right of the editor.
 
-<div class="doc-image">
-<img src="{{ site.baseurl }}/images/docs/editor/appearance-themes.png" alt="Advanced Settings"/>
-</div>
+{% include doc-image.html src="/editor/appearance-themes.png" %}
 
 The **Active Theme** section controls whether the light or dark theme is currently active. Automatic mode can be used to switch between light and dark themes based on the brightness of the device. This works great when Auto-brightness is enabled in iOS Settings, but also if you manually adjust brightness on the device.  The "brightness Threshold" slider controls the what device brightness is the switching point between themes in automatic mode.
 

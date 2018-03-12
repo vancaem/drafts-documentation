@@ -108,3 +108,14 @@ Hides the menu at `48em`, but modify this based on your app's needs.
   #layout.active { position: relative; left: 150px; } }
 div.doc-image { width: 100%; text-align: center; margin: 1.5em 0; }
 div.doc-image img { max-width: 100%; }
+
+a.pro { background-color: #5489EF; color: white; font-size: .7em; font-weight: 500; padding: 2px 6px; border-radius: 8px; text-decoration: none; }
+
+div.navigation { margin: 1em 0em; }
+div.navigation a { text-decoration: none; font-weight: bold; }
+
+div.pro-features > div { display: table; }
+div.pro-features > div > div { vertical-align: top; display: table-cell; margin: 1.5em 0; padding: .5em; }
+div.pro-features > div > div.content { padding: 1em 1em; }
+div.pro-features > div > div.content h2 { margin: 0; padding: 0; }
+div.pro-features > div > div.content p { margin: 0; padding: .25em 0; }

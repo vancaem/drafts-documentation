@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>feature-extensions</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="feature-extensions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-2" fill="#BFCECA" opacity="0.276268116" x="6" y="10" width="67" height="62" rx="6"></rect>
+        <path d="M6,16 C6,12.6862915 8.6862915,10 12,10 L67,10 C70.3137085,10 73,12.6862915 73,16 L73,23.5 L6,23.5 L6,16 Z" id="Rectangle-2" fill="#9FB9B2" opacity="0.276268116"></path>
+        <text id="RECENT" font-family="SFUIDisplay-Light, SF UI Display" font-size="6" font-weight="300" fill="#000000">
+            <tspan x="20.2626953" y="19">RECENT</tspan>
+        </text>
+        <rect id="Rectangle" fill="#928A8A" x="9" y="13" width="8" height="8" rx="2"></rect>
+        <path d="M13,31 L60.5105251,31" id="Path-2" stroke="#979797" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M13,41 L49,41" id="Path-2" stroke="#979797" stroke-width="2" stroke-linecap="round"></path>
+        <path d="M13,51 L66.0094331,51" id="Path-2" stroke="#979797" stroke-width="2" stroke-linecap="round"></path>
+    </g>
+</svg>

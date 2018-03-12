@@ -1,6 +1,11 @@
 ---
 title: Changelog
 ---
+#### v0.1.1.79
+
+- **New:** Rewritten onboarding flow (only comes up if you reinstall). Still not finalized, just basics, but looks nicer and flows better now.
+- **Change:** A few tweaks to Taskpaper language grammar.
+- **Change:** A variety of changes to polish up Pro subscription permissions that you won't see yet.
 
 #### v0.1.1.77
 

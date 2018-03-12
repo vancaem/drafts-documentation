@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>feature-proactive</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="feature-proactive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M45.4672622,21.0742351 C43.483689,12.9941629 36.1918504,7 27.5,7 C18.7104025,7 11.3524824,13.1297398 9.46783647,21.3476225" id="Oval-2" stroke="#3488C8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M45.8605583,45.8527108 C45.0271148,36.4071134 37.0950179,29 27.432897,29 C17.7501692,29 9.80485272,36.4387421 9,45.9131739" id="Oval-2" stroke="#3488C8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(27.430279, 37.456587) rotate(-180.000000) translate(-27.430279, -37.456587) "></path>
+        <path d="M36.4351939,37.9714007 C36.0409717,33.5035947 32.2890577,30 27.7188352,30 C23.1388656,30 19.3806986,33.5185553 19,38" id="Oval-2" stroke="#3488C8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(27.717597, 34.000000) rotate(-180.000000) translate(-27.717597, -34.000000) "></path>
+        <circle id="Oval-3" stroke="#3488C8" fill="#3488C8" cx="22" cy="20" r="2"></circle>
+        <circle id="Oval-3" stroke="#3488C8" fill="#3488C8" cx="33" cy="20" r="2"></circle>
+    </g>
+</svg>

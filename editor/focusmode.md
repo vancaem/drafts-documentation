@@ -2,6 +2,8 @@
 title: Focus Mode
 ---
 
+{% include back.html title="Editor" path="/editor" %}
+
 Newly introduced in Drafts 5, focus mode changes two key Drafts behaviors to let you focus on a particular on-going project, or to more easily process a collection of drafts. Focus mode is enabled and disabled using the focus mode button in the lower left of the editor, or in settings. When in focus mode, these two changes occur:
 
 1. The "Create new draft" setting is disabled. Draft will always return to the last edited draft, rather than creating a new one when you return to the app after the specified period of time.
