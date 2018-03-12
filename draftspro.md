@@ -58,4 +58,9 @@ Drafts is free to use, with full privileges to create, edit and sync drafts, and
 
 ### Pricing
 
-Drafts Pro is a single, universal subscription for iPhone, iPad and Apple Watch. Pricing is still being finalized but Drafts Pro will be available with montly or annual options with a free trial.
+Drafts Pro is a single, universal subscription for iPhone, iPad and Apple Watch. Drafts Pro with two purchase options:
+
+- **$19.99 per year** *(with Free 7 Day Trial)*
+- **$1.99 per month**
+
+*Drafts Pro will be available in-app with the final release of Drafts 5.*
