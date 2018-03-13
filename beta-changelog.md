@@ -1,6 +1,18 @@
 ---
 title: Changelog
 ---
+
+#### v0.1.1.81
+
+- **New:** Action group icons.  All your groups will have the default icon to start.
+- **New:** <-> Display mode option for Workspace and Action Group tab views. Can toggle between display name name, icon and name, or icon only on tabs. Appears at end of scroll for those tab views.
+- **New:** `editor.focusModeEnabled` property to access or set current focus mode status.
+- **New:** `editor.linkModeEnabled` property to access or set current link mode status.
+- **New:** First use explainer dialog for focus mode.
+- **Fix:** Sync issue with conflicting idle timer.
+- **Fix:** Clean up a couple of rare crashers.
+- **Change:** A few theme tweaks.
+
 #### v0.1.1.79
 
 - **New:** Rewritten onboarding flow (only comes up if you reinstall). Still not finalized, just basics, but looks nicer and flows better now.
