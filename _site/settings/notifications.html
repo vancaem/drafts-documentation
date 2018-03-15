@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="icon" href="/drafts-documentation/images/favicon.png">
 <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Settings | Drafts 5</title>
-<meta property="og:title" content="Settings" />
+<title>Notifications and App Badge | Drafts 5</title>
+<meta property="og:title" content="Notifications and App Badge" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Documentation for Drafts 5" />
 <meta property="og:description" content="Documentation for Drafts 5" />
-<link rel="canonical" href="http://localhost:4000/drafts-documentation/settings/" />
-<meta property="og:url" content="http://localhost:4000/drafts-documentation/settings/" />
+<link rel="canonical" href="http://localhost:4000/drafts-documentation/settings/notifications.html" />
+<meta property="og:url" content="http://localhost:4000/drafts-documentation/settings/notifications.html" />
 <meta property="og:site_name" content="Drafts 5" />
 <script type="application/ld+json">
-{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/drafts-documentation/settings/","publisher":null,"image":null,"headline":"Settings","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Documentation for Drafts 5","author":null,"@type":"WebPage","url":"http://localhost:4000/drafts-documentation/settings/notifications.html","publisher":null,"image":null,"headline":"Notifications and App Badge","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -75,14 +75,27 @@
 
     <div id="main">
         <div class="header">
-            <h1>Settings</h1>
+            <h1>Notifications and App Badge</h1>
         </div>
 
         <div class="content">
-          <ul>
-  <li><a href="/drafts-documentation/settings/notifications">App Badge</a></li>
-  <li><a href="/drafts-documentation/settings/sync">iCloud Sync</a></li>
-  <li><a href="/drafts-documentation/settings/backups">Backups</a></li>
+          <p>Drafts can display a badge on the app home screen icon to indicate the number of unprocessed drafts in the inbox. This count can additionally be filter based on criteria described below.</p>
+
+<div class="doc-image">
+<img src="/drafts-documentation/images/docs/settings/notifications.png" alt="" />
+</div>
+
+<p>To enable the app badge, visit Settings &gt; Notifications. Available options:</p>
+
+<ul>
+  <li><em>Show inbox count</em>: Toggle this on to enable the app badge. If you have not enabled the badge before, you will be prompted to allow notification permissions. These permissions are required to display the badge.</li>
+  <li><em>Count only flagged inbox drafts</em>: If enabled, only flagged drafts will be included in the count.</li>
+  <li><em>Tag filter</em> The tag filter allows filtering of the counted drafts by tags. This can be a single tag, a comma-delimited list of tags. The special value “untagged” is also support to filter by only drafts which are not assigned a tag - and ! can be used to omit a tag. Example expressions:
+    <ul>
+      <li><code class="highlighter-rouge">blue, green</code>: Only drafts with both blue and green tags.</li>
+      <li><code class="highlighter-rouge">blue, !green</code>: Only drafts with the blue tag, but NOT the green tag.</li>
+    </ul>
+  </li>
 </ul>
 
         </div>

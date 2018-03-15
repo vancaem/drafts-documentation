@@ -2,6 +2,13 @@
 title: Changelog
 ---
 
+#### v0.1.1.82
+
+- **Change:** Settings for visibility and display mode of tabs in both drafts and action lists are now in the "..." menus.
+- **New:** People and Time action icon additions.
+- **New:** Badge settings now take a tag filter expression, same as Workspaces, so you can set the app badge to only count "untagged", or "project-tag, !complete", etc.
+- **Fix:** Clean up of some VoiceOver labelling.
+
 #### v0.1.1.81
 
 - **New:** Action group icons.  All your groups will have the default icon to start.
