@@ -2,7 +2,13 @@
 title: Editor
 ---
 
+### Top Toolbar
 
+{% include doc-image.html src="/editor/toptoolbar.png" %}
+
+### Bottom Toolbar
+
+{% include doc-image.html src="/editor/bottomtoolbar.png" %}
 
 ### Topics
 

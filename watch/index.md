@@ -25,6 +25,10 @@ The inbox screen provides a quick list of drafts in your inbox. Tap on a draft t
 - **Archive**: Move the draft to the archive.
 - **Trash**: Move draft to the trash.
 
+### Siri
+
+The Drafts Apple Watch app also support direct integration with Siri, using the phrase "Create a note using Drafts".
+
 ### Interaction with the Phone and Disconnected Use
 
 When your watch is paired and has an active connection with your iPhone, changes made on the Watch are pushed back to the phone more or less in real time.
