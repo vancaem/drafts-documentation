@@ -1,6 +1,9 @@
 ---
 title: iCloud Sync
 ---
+
+{% include back.html title="Settings" path="/settings" %}
+
 Drafts syncs across devices and backs up data to iCloud. Information synchronized to iCloud include:
 
 - Drafts

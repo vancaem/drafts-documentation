@@ -26,7 +26,7 @@
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="/drafts-documentation/assets/css/style.css?v=11e2e9e6c2c8c2d5503d2f3bb7429d953b1526ad">
+    <link rel="stylesheet" href="/drafts-documentation/assets/css/style.css?v=fc493e66a98ed8c0a919d28b265581a820bafed4">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -57,6 +57,7 @@
                 <li class="pure-menu-item"><a href="/drafts-documentation/drafts" class="pure-menu-link">Managing Drafts</a></li>
                 <li class="pure-menu-item"><a href="/drafts-documentation/editor" class="pure-menu-link">Editor</a></li>
                 <li class="pure-menu-item"><a href="/drafts-documentation/actions" class="pure-menu-link">Actions</a></li>
+                <li class="pure-menu-item"><a href="/drafts-documentation/watch" class="pure-menu-link">Apple Watch</a></li>
                 <li class="pure-menu-item"><a href="/drafts-documentation/scripting" class="pure-menu-link">Scripting</a></li>
                 <li class="pure-menu-item"><a href="/drafts-documentation/settings" class="pure-menu-link">Settings</a></li>
                 <li class="pure-menu-item"><a href="/drafts-documentation/urls" class="pure-menu-link">URL Schemes</a></li>
@@ -79,7 +80,11 @@
         </div>
 
         <div class="content">
-          <p>Drafts can display a badge on the app home screen icon to indicate the number of unprocessed drafts in the inbox. This count can additionally be filter based on criteria described below.</p>
+          <div class="navigation">
+  <a href="/drafts-documentation/settings">&lt; Settings</a>
+</div>
+
+<p>Drafts can display a badge on the app home screen icon to indicate the number of unprocessed drafts in the inbox. This count can additionally be filter based on criteria described below.</p>
 
 <div class="doc-image">
 <img src="/drafts-documentation/images/docs/settings/notifications.png" alt="" />
@@ -88,9 +93,9 @@
 <p>To enable the app badge, visit Settings &gt; Notifications. Available options:</p>
 
 <ul>
-  <li><em>Show inbox count</em>: Toggle this on to enable the app badge. If you have not enabled the badge before, you will be prompted to allow notification permissions. These permissions are required to display the badge.</li>
-  <li><em>Count only flagged inbox drafts</em>: If enabled, only flagged drafts will be included in the count.</li>
-  <li><em>Tag filter</em> The tag filter allows filtering of the counted drafts by tags. This can be a single tag, a comma-delimited list of tags. The special value “untagged” is also support to filter by only drafts which are not assigned a tag - and ! can be used to omit a tag. Example expressions:
+  <li><strong>Show inbox count</strong>: Toggle this on to enable the app badge. If you have not enabled the badge before, you will be prompted to allow notification permissions. These permissions are required to display the badge.</li>
+  <li><strong>Count only flagged inbox drafts</strong>: If enabled, only flagged drafts will be included in the count.</li>
+  <li><strong>Tag filter</strong> The tag filter allows filtering of the counted drafts by tags. This can be a single tag, a comma-delimited list of tags. The special value “untagged” is also support to filter by only drafts which are not assigned a tag - and ! can be used to omit a tag. Example expressions:
     <ul>
       <li><code class="highlighter-rouge">blue, green</code>: Only drafts with both blue and green tags.</li>
       <li><code class="highlighter-rouge">blue, !green</code>: Only drafts with the blue tag, but NOT the green tag.</li>
@@ -106,7 +111,8 @@
               <img src="/drafts-documentation/images/appstore.svg" %>
             </a>
           </div>
-          &copy; 2018 by <a href="https://agiletortoise.com/">Agile Tortoise, Inc.</a>
+          Drafts is a registered Trademark of Agile Tortoise, Inc.<br>
+          &copy; 2012-2018 by <a href="https://agiletortoise.com/">Agile Tortoise, Inc.</a>
         </div>
     </div>
 </div>

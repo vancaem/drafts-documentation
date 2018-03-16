@@ -1,6 +1,9 @@
 ---
 title: Backups
 ---
+
+{% include back.html title="Settings" path="/settings" %}
+
 Although iCloud sync general serves as a backup to protect you against loss of a device, etc., Drafts can also create on-demand or automated periodic backups of drafts and action groups to iCloud Drive.  These backups can be imported back into Drafts if needed.
 
 To make a backup on-demand, or to enable periodic backups, visit Settings > Storage > Backups in Drafts.
