@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="121px" height="115px" viewBox="0 0 121 115" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>drafts-site-header</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="drafts-site-header" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(6.000000, 10.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M26.0741992,22.5370996 C26.0741992,23.3450372 26.729162,24 27.5370996,24 C28.3450372,24 29,23.3450372 29,22.5370996 L29,1.46290039 C29,0.654962815 28.3450372,0 27.5370996,0 L6.46290039,0 C5.65496281,0 5,0.654962815 5,1.46290039 C5,2.27083797 5.65496281,2.92580078 6.46290039,2.92580078 L26.0741992,2.92580078 L26.0741992,22.5370996 Z" id="Path-2"></path>
+            <path d="M21.1664408,8.8335592 L21.1664408,17.0832204 C21.1664408,17.5895438 21.576897,18 22.0832204,18 C22.5895438,18 23,17.5895438 23,17.0832204 L23,7.9167796 C23,7.41045621 22.5895438,7 22.0832204,7 L12.9167796,7 C12.4104562,7 12,7.41045621 12,7.9167796 C12,8.42310299 12.4104562,8.8335592 12.9167796,8.8335592 L21.1664408,8.8335592 Z" id="Path-2"></path>
+            <path d="M21.0741992,7.92580078 L21.0741992,27.5370996 C21.0741992,28.3450372 21.729162,29 22.5370996,29 C23.3450372,29 24,28.3450372 24,27.5370996 L24,6.46290039 C24,5.65496281 23.3450372,5 22.5370996,5 L1.46290039,5 C0.654962815,5 0,5.65496281 0,6.46290039 C0,7.27083797 0.654962815,7.92580078 1.46290039,7.92580078 L21.0741992,7.92580078 Z" id="Path-2" transform="translate(12.000000, 17.000000) rotate(-180.000000) translate(-12.000000, -17.000000) "></path>
+        </g>
+        <text id="Drafts" font-family="SFUIDisplay-Semibold, SF UI Display" font-size="32" font-weight="500" fill="#9B9B9B">
+            <tspan x="4.4765625" y="76">Drafts</tspan>
+        </text>
+        <text id="Capture-‣‣-Act" font-family="SFUIDisplay-Regular, SF UI Display" font-size="17" font-weight="normal" fill="#FFFFFF">
+            <tspan x="5.14282227" y="105">Capture ‣‣ Act</tspan>
+        </text>
+    </g>
+</svg>
